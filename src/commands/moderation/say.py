@@ -9,7 +9,7 @@ class Command:
         self.description = "Give the bot a prompt to say"
         self.permissions = ["say"]
         self.aliases = ['speak', 'talk']
-        self.cooldown = 1
+        self.cooldown = 0
 
     async def execute(self, user: User, args: list, message: str):
         prefix = config.prefix
