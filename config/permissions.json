@@ -1,8 +1,21 @@
 {
     "permissions": [
         {
-            "user_id": "change-me",
-            "username": "change-me",
+            "user_id": "636a7d9ecc79c4ca4f7da5ef",
+            "username": "_HaseeB_",
+            "permissions": [
+                "emote",
+                "teleport",
+                "print",
+                "kick",
+                "help",
+                "say",
+                "walk"
+            ]
+        },
+        {
+            "user_id": "64c1e24c02e13e95a9374521",
+            "username": "HKS01",
             "permissions": [
                 "emote",
                 "teleport",
@@ -12,8 +25,8 @@
             ]
         },
         {
-            "user_id": "change-me",
-            "username": "change-me",
+            "user_id": "64c98e95c9b672a10bfd2405",
+            "username": "M._HamZa",
             "permissions": [
                 "emote",
                 "teleport",
