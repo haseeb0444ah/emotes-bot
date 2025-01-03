@@ -7,7 +7,7 @@ class Command:
         self.bot = bot
         self.name = "come"
         self.description = "Teleport a player to a specific position"
-        self.aliases = ['walk']
+        self.aliases = ['come']
         self.cooldown = 5
 
     async def execute(self, user: User, args: list, message: str):
