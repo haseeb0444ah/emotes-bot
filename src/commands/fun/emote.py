@@ -9,8 +9,8 @@ class Command:
         self.bot = bot
         self.name = "emote"
         self.description = "Perform a random emote on a specific player or all players in the room"
-        self.permissions = ['emote']
-        self.cooldown = 5
+        
+        self.cooldown = 0
 
     async def execute(self, user: User, args: list, message: str):
         prefix = config.prefix
